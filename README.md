@@ -49,7 +49,8 @@ API runs at http://localhost:8000
 Frontend (React + Vite)
 Bash
 UI runs at http://localhost:5173
-🗂️ What the App Does
+
+#🗂️ What the App Does
 A Trello-style Kanban board with the following features:
 ✅ Boards → Lists → Cards (full CRUD)
 ✅ Move cards between lists
@@ -57,7 +58,8 @@ A Trello-style Kanban board with the following features:
 ✅ Coloured tags / labels (e.g. bug, design, feature)
 ✅ Assign a member to a card
 ✅ Due dates — overdue cards are visually flagged
-📁 Repo Structure
+
+#📁 Repo Structure
 forge2-qualifier-tanya/
 ├── backend/              # Laravel REST API (SQLite)
 ├── frontend/             # React + Vite UI
@@ -69,7 +71,8 @@ forge2-qualifier-tanya/
 ├── ARCHITECTURE.md       # Agent roles, Slack channels, model routing
 ├── .env.example          # Env vars (no real secrets)
 └── README.md
-💬 Slack Channel Scheme
+
+#💬 Slack Channel Scheme
 Channel
 Purpose
 #sprint-main
@@ -78,23 +81,21 @@ Human talks to Hermes — goals, plans, decisions
 Hermes assigns tasks to OpenClaw — code work happens here
 #agent-log
 Raw agent activity and autonomous run output
-🔑 Environment Variables
+
+#🔑 Environment Variables
 See .env.example for the full list. Key variables:
 SLACK_BOT_TOKEN=xoxb-...
 SLACK_APP_TOKEN=xapp-...
 GROQ_API_KEY=...
 GEMINI_API_KEY=...
 Never commit real tokens. Rotate immediately if accidentally pushed.
-🎥 Video Walkthrough
+
+#🎥 Video Walkthrough
 [Add Loom / Drive link here — 60 to 90 seconds]
-👩‍💻 Builder
+
+#👩‍💻 Builder
 Tanya — CSE student, Pranveer Singh Institute of Technology, Kanpur
 GitHub: @heyimtanya
 ---
 
-Copy the whole thing, paste it into your `README.md`, then:
 
-```bash
-git add README.md
-git commit -m "init: add README"
-git push
